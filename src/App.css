@@ -1,0 +1,22 @@
+.page-title {
+  justify-content: center;
+}
+
+.form-container {
+  width: 40%;
+  margin: auto;
+}
+
+.error-message{
+  margin-top: 0 !important;
+  margin-left: 2rem !important;
+  height: fit-content !important;
+}
+
+.ui.teal.button:focus, .ui.teal.buttons .button:focus{
+  background-color: #00b5ad;
+}
+
+.p1 {
+  padding: 1rem !important;
+}

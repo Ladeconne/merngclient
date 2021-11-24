@@ -8,10 +8,9 @@ import {
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 
-const PORT = process.env.PORT || 5000;
 
 const httpLink = createHttpLink({
-  uri: `http://localhost:${PORT}`
+  uri: `https://merngbackend.herokuapp.com/`
 })
 
 

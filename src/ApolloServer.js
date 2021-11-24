@@ -8,8 +8,10 @@ import {
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 
+const PORT = process.env.PORT || 5000;
+
 const httpLink = createHttpLink({
-  uri: "http://localhost:5000"
+  uri: `http://localhost:${PORT}`
 })
 
 
